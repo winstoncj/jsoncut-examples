@@ -3,7 +3,7 @@ import uuid
 import datetime as dt
 from random import random, randint
 
-def fake_mc_dict(dict_name: str, list_len: int) -> dict:
+def fake_mc_contacts_dict(dict_name: str, list_len: int) -> dict:
     """
     Given a range of list_len, this function returns a dict of list_len
     number of contacts imitating the JSON contacts list data returned 
